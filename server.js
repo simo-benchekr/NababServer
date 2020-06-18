@@ -1,6 +1,5 @@
 require("dotenv").config();
 const express = require("express");
-const cron = require("node-cron");
 const fs = require("fs");
 const cors = require("cors");
 let app = express();
