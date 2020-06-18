@@ -1,0 +1,26 @@
+
+### Get utilisateur
+get http://localhost:3000/utilisateur
+### POST SINGLE utilisateur
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "nom": "benchekroun",
+    "prenom": "mohamed",
+    "sexe": "M",
+    "tel": "+212 6-xx-xx-xx",
+    "adr": "Adr N°, ville, pays",
+    "email": "bouziane",
+    "password": "admin123@",
+    "role": "Administrateur"
+}
+
+### delete utilisateur by ID
+DELETE http://localhost:3000/utilisateur/5ee12fb46136912300829da9
+
+### get utilisateur by id 
+
+GET http://localhost:3000/utilisateur/5ee12f436136912300829da6
+
